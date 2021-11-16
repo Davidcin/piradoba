@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}{%endblock%}</title>
+    {% load static %}
+    <link rel="stylesheet" href="../static/styles/styles.css" />
+    <link rel="stylesheet" href="../static/styles/list.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="list-left"><a href="/home">Home</a></li>
+            <li class="list-right"><a href="/admin">Admin</a></li>        
+        </ul>
+    </nav>
+{% block content %}
+{% endblock %}
+</body>
+</html>

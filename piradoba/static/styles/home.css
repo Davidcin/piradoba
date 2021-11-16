@@ -1,0 +1,25 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #326da8;
+    padding: 20px;
+}
+a:hover{
+    color: #25517d;
+ }
+body{
+    background-color: #baddff;
+}
+
+div{
+     position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
